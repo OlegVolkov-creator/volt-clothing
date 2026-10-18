@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Футболка CORE — VOLT</title>
+  <link rel="stylesheet" href="./product.css">
+  <script src="./product.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">VOLT<span>.</span></a>
+    <a href="index.html" class="header-link">← КАТАЛОГ</a>
+    <a href="cart.html" class="header-link">КОРЗИНА ↗</a>
+  </header>
+
+  <main class="product-page">
+    <section class="product-gallery">
+      <img
+        id="product-image"
+        src="imagess/футболка.jpg"
+        alt="Футболка CORE"
+      >
+      <span class="image-label">VOLT / ESSENTIALS</span>
+    </section>
+
+    <section class="product-info">
+      <p class="eyebrow">COLLECTION 001</p>
+
+      <h1 id="product-name">ФУТБОЛКА CORE</h1>
+
+      <p class="price" id="product-price">4 990 ₽</p>
+
+      <p class="description" id="product-description">
+        Чёрная футболка свободного кроя.
+      </p>
+
+      <div class="line"></div>
+
+      <div class="size-heading">
+        <span>ВЫБЕРИ РАЗМЕР</span>
+        <span>SIZE</span>
+      </div>
+
+      <div class="sizes" id="sizes">
+        <button class="size-option" type="button" data-size="M">M</button>
+        <button class="size-option" type="button" data-size="L">L</button>
+        <button class="size-option" type="button" data-size="XL">XL</button>
+      </div>
+
+<div class="quantity-selector">
+  <span>КОЛИЧЕСТВО</span>
+
+  <div class="quantity-controls">
+    <button type="button" id="quantity-minus">−</button>
+    <span id="quantity-value">1</span>
+    <button type="button" id="quantity-plus">+</button>
+  </div>
+</div>
+
+      <p id="size-message" class="size-message">
+        Выбери размер перед добавлением в корзину.
+      </p>
+
+      <button id="buy-button" class="buy-button" type="button">
+        ДОБАВИТЬ В КОРЗИНУ ↗
+      </button>
+
+      <p class="shipping">
+        DESIGNED FOR EVERYDAY LIFE.<br>
+        VOLT — LESS, BUT BETTER.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>VOLT®</span>
+    <span>INDEPENDENT CLOTHING PROJECT</span>
+  </footer>
+
+</body>
+</html>

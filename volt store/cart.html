@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Корзина — VOLT</title>
+  <link rel="stylesheet" href="./cart.css">
+  <script src="./cart.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">VOLT<span>.</span></a>
+    <a href="index.html" class="back-link">← КАТАЛОГ</a>
+    <span class="header-label">YOUR SELECTION</span>
+  </header>
+
+  <main class="cart-page">
+    <p class="eyebrow">VOLT / CHECKOUT</p>
+    <h1>ТВОЯ КОРЗИНА<span>.</span></h1>
+
+    <div id="cart-items"></div>
+
+    <section class="cart-summary">
+      <div class="total-row">
+        <span>ИТОГО</span>
+        <strong id="cart-total">0 ₽</strong>
+      </div>
+      <button id="clear-cart" class="clear-button">
+        ОЧИСТИТЬ КОРЗИНУ
+      </button>
+      <a href="index.html" class="continue-link">← ПРОДОЛЖИТЬ ПОКУПКИ</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>VOLT®</span>
+    <span>INDEPENDENT CLOTHING PROJECT</span>
+  </footer>
+</body>
+</html>
